@@ -1,12 +1,12 @@
 const { mkdirSync, writeFileSync } = require("node:fs");
 
 const poem = [
-  "My mother drew the hem in chalk.",
-  "I set the shears a finger higher.",
-  "She shifted her hand",
-  "to pull the silk taut.",
-  "I closed the shears.",
-  "Her line fell whole into her lap.",
+  "My mother chalks the hem. “Here.”",
+  "I take the shears and open them a finger higher.",
+  "She lets the silk go slack.",
+  "I set the handles in her palm",
+  "and pull the silk tight.",
+  "She cuts her own line loose.",
 ].join("\n");
 
 if (poem.trim().length === 0 || [...poem].length > 280) {
